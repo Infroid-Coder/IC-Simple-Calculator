@@ -1,0 +1,72 @@
+body{
+    background: rgb(31, 31, 31);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#calc{
+    background-color: green;
+    border: solid 1px white;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 30px;
+}
+input{
+    color: rgb(66, 66, 66);
+}
+input[type = number]{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(255, 0, 200);
+    width: 200px;
+}
+input[type = text]{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(255, 255, 255);
+    width: 200px;
+}
+input:focus{
+    border: solid 2px yellow;
+    outline: none;
+}
+#operats{
+    border: none;
+    border: solid 2px rgb(255, 255, 255);
+    width: 70px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#operats:focus{
+    outline: none;
+    border: solid 2px yellow;
+}
+#clear{
+    background-color: green;
+    border: solid 1px white;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 30px;
+}
+#calculator{
+    border: solid 2px white;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+}
+#calculator-align{
+    text-align: center;
+}
